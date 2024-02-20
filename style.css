@@ -411,6 +411,9 @@ footer h4 {
 .telephone a {
     color: #ffffff;
 }
+.email a {
+    color: #ffffff;
+}
 .copyright {
     text-align: center;
     display: block;
@@ -708,6 +711,7 @@ footer h4 {
         justify-content: center;
         flex-wrap: wrap;
         
+        
     }
     .contact_item {
         width: 45%;
@@ -721,6 +725,9 @@ footer h4 {
         max-width: 1200px;
         width: 95%;
         margin: 0 auto;
+    }
+    .footer-container {
+        width: 95%;
     }
 }
 @media only screen and (max-width : 999px) and (orientation:landscape) {
