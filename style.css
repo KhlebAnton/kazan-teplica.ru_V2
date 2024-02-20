@@ -89,8 +89,9 @@ nav::after {
     background-position: left bottom;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 19px;
+    font-size: 16px;
     position: relative;
+    border-left: 1px solid #dadada;
 
 
 }
@@ -525,7 +526,7 @@ footer h4 {
 .selector-descs button {
     padding: 0.5em;
     
-    margin: 2px 0;
+    margin: 2px;
     width: 45%;
     cursor: pointer;
     background-color: #302F2F;
@@ -592,6 +593,7 @@ footer h4 {
     margin: 0 auto;
 }
 .category_catalog {
+    cursor: pointer;
     flex-grow: 1;
     text-align: center;
     min-height: 200px;
@@ -607,6 +609,13 @@ footer h4 {
     background-size: cover;
     transition: 0.5s;
     filter: grayscale(0.7);
+}
+.category_catalog.teplica {
+    background-image: url("img/teplica25t.jpg");
+    background-position: center;
+}
+.category_catalog.carcas {
+    background-image: url("img/polick.jpg");
 }
 .category_catalog h3 {
     color: #ffffff;
@@ -630,8 +639,12 @@ footer h4 {
     background: #000;
     opacity: 0.4;
 }
+.btn-group-polik {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
-
+}
 
 
 @media (max-width : 799px) {
