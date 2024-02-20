@@ -310,7 +310,7 @@ nav::after {
 }
 
 .main_two {
-    background-image: url('img/каркас1.png');
+    background-image: url('img/каркас1.jpg');
 
 }
 
@@ -589,12 +589,12 @@ footer h4 {
     margin: 0 auto;
 }
 .category_catalog {
-    width: 45%;
+    flex-grow: 1;
     text-align: center;
     min-height: 200px;
     border-radius: 25px;
     position: relative;
-
+    margin: 0 10px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -602,23 +602,20 @@ footer h4 {
     background-image: url("img/теплица1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 0.2s;
-    filter: grayscale(0.6);
+    transition: 0.5s;
+    filter: grayscale(0.7);
 }
 .category_catalog h3 {
     color: #ffffff;
     position: absolute;
     z-index: 1;
     width: 100%;
-    font-size: 1em;
-    transition: 0.4s;
+    font-size: 1.3em;
 }
 .category_catalog:hover {
     filter: grayscale(0);
 }
-.category_catalog:hover>a h3 {
-    font-size: 1.2em;
-}
+
 .category_catalog::after {
     content: '';
     position: absolute;
