@@ -13,7 +13,7 @@
             "arc": "20x30мм",
             "length": "2м",
             "width": "2м",
-            "price": "14490"
+            "price": "16560"
           }
         },
         {
@@ -24,7 +24,7 @@
             "arc": "20x30мм",
             "length": "3м",
             "width": "2м",
-            "price": "17940"
+            "price": "20700"
           }
         }
       ]
@@ -42,7 +42,7 @@
             "arc": "20x30мм",
             "length": "2м",
             "width": "2м",
-            "price": "14490"
+            "price": "16560"
           }
         },
         {
@@ -53,7 +53,7 @@
             "arc": "20x30мм",
             "length": "3м",
             "width": "2м",
-            "price": "17940"
+            "price": "20700"
           }
         }
       ]
@@ -71,7 +71,7 @@
             "density": "0.510 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "2306"
+            "price": "2469"
           }
         },
         {
@@ -81,7 +81,7 @@
             "density": "0.750 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "3382"
+            "price": "3795"
           }
         },
         {
@@ -91,7 +91,7 @@
             "density": "0.900 кг/м²",
             "warranty": "3 года",
             "lifeTime": "12 лет",
-            "price": "4101"
+            "price": "4323"
           }
         }
       ]
@@ -107,7 +107,7 @@
             "density": "0.510 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "2306"
+            "price": "2469"
           }
         },
         {
@@ -117,7 +117,7 @@
             "density": "0.750 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "3382"
+            "price": "3795"
           }
         },
         {
@@ -127,7 +127,7 @@
             "density": "0.900 кг/м²",
             "warranty": "3 года",
             "lifeTime": "12 лет",
-            "price": "4101"
+            "price": "4323"
           }
         }
       ]
@@ -143,7 +143,7 @@
             "density": "0.510 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "2306"
+            "price": "2469"
           }
         },
         {
@@ -153,7 +153,7 @@
             "density": "0.750 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "3382"
+            "price": "3795"
           }
         },
         {
@@ -163,7 +163,7 @@
             "density": "0.900 кг/м²",
             "warranty": "3 года",
             "lifeTime": "12 лет",
-            "price": "4101"
+            "price": "4323"
           }
         }
       ]
@@ -179,7 +179,7 @@
             "density": "0.510 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "2306"
+            "price": "2469"
           }
         },
         {
@@ -189,7 +189,7 @@
             "density": "0.750 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "3382"
+            "price": "3795"
           }
         },
         {
@@ -199,7 +199,7 @@
             "density": "0.900 кг/м²",
             "warranty": "3 года",
             "lifeTime": "12 лет",
-            "price": "4101"
+            "price": "4323"
           }
         }
       ]
@@ -215,7 +215,7 @@
             "density": "0.510 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "2306"
+            "price": "2469"
           }
         },
         {
@@ -225,7 +225,7 @@
             "density": "0.750 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "3382"
+            "price": "3795"
           }
         },
         {
@@ -235,7 +235,7 @@
             "density": "0.900 кг/м²",
             "warranty": "3 года",
             "lifeTime": "12 лет",
-            "price": "4101"
+            "price": "4323"
           }
         }
       ]
@@ -251,7 +251,7 @@
             "density": "0.510 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "2306"
+            "price": "2469"
           }
         },
         {
@@ -261,7 +261,7 @@
             "density": "0.750 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "3382"
+            "price": "3795"
           }
         },
         {
@@ -271,43 +271,7 @@
             "density": "0.900 кг/м²",
             "warranty": "3 года",
             "lifeTime": "12 лет",
-            "price": "4101"
-          }
-        }
-      ]
-    },
-    {
-      "name": "Молочный",
-      "image": "img/catalog/engineer/milk.jpg",
-      "buttons": [
-        {
-          "label": "4 мм",
-          "description": {
-            "thickness": "4 мм",
-            "density": "0.510 кг/м²",
-            "warranty": "3 года",
-            "lifeTime": "10 лет",
-            "price": "2306"
-          }
-        },
-        {
-          "label": "6 мм",
-          "description": {
-            "thickness": "6 мм",
-            "density": "0.750 кг/м²",
-            "warranty": "3 года",
-            "lifeTime": "10 лет",
-            "price": "3382"
-          }
-        },
-        {
-          "label": "8 мм",
-          "description": {
-            "thickness": "8 мм",
-            "density": "0.900 кг/м²",
-            "warranty": "3 года",
-            "lifeTime": "12 лет",
-            "price": "4101"
+            "price": "4323"
           }
         }
       ]
@@ -323,7 +287,7 @@
             "density": "0.510 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "2306"
+            "price": "2469"
           }
         },
         {
@@ -333,7 +297,7 @@
             "density": "0.750 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "3382"
+            "price": "3795"
           }
         },
         {
@@ -343,7 +307,7 @@
             "density": "0.900 кг/м²",
             "warranty": "3 года",
             "lifeTime": "12 лет",
-            "price": "4101"
+            "price": "4323"
           }
         }
       ]
@@ -359,7 +323,7 @@
             "density": "0.510 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "2306"
+            "price": "2469"
           }
         },
         {
@@ -369,7 +333,7 @@
             "density": "0.750 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "3382"
+            "price": "3795"
           }
         },
         {
@@ -379,7 +343,7 @@
             "density": "0.900 кг/м²",
             "warranty": "3 года",
             "lifeTime": "12 лет",
-            "price": "4101"
+            "price": "4323"
           }
         }
       ]
@@ -395,7 +359,7 @@
             "density": "0.510 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "2306"
+            "price": "2469"
           }
         },
         {
@@ -405,7 +369,7 @@
             "density": "0.750 кг/м²",
             "warranty": "3 года",
             "lifeTime": "10 лет",
-            "price": "3382"
+            "price": "3795"
           }
         },
         {
@@ -415,7 +379,7 @@
             "density": "0.900 кг/м²",
             "warranty": "3 года",
             "lifeTime": "12 лет",
-            "price": "4101"
+            "price": "4323"
           }
         }
       ]

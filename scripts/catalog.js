@@ -181,7 +181,7 @@ function loadProducts(subcategoryId) {
                                     <div calss="color blue" style="background-color: #227fe7;"></div>
                                     <div calss="color granat" style="background-color: #9c103f;"></div>
                                     <div calss="color green" style="background-color: #499c4c;"></div>
-                                    <div calss="color milk" style="background-color: #fafafa;"></div>
+                                    
                                     <div calss="color orange" style="background-color: #ea8819;"></div>
                                     <div calss="color red" style="background-color: #dc2922;"></div>
                                     <div calss="color yellow" style="background-color: #eeda3b;"></div>

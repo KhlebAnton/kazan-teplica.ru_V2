@@ -10,7 +10,7 @@
             "thickness": "10 мм",
             "density": "1.0 кг/м²",
             "warranty": "5 лет",
-            "price": "4532"
+            "price": "4839"
           }
         },
         {
@@ -19,7 +19,7 @@
             "thickness": "10 мм",
             "density": "1.45 кг/м²",
             "warranty": "7 лет",
-            "price": "6620"
+            "price": "6599"
           }
         }
       ]
@@ -34,7 +34,7 @@
             "thickness": "10 мм",
             "density": "1.0 кг/м²",
             "warranty": "5 лет",
-            "price": "4752"
+            "price": "5063"
           }
         },
         {
@@ -43,7 +43,7 @@
             "thickness": "10 мм",
             "density": "1.45 кг/м²",
             "warranty": "7 лет",
-            "price": "6945"
+            "price": "6908"
           }
         }
       ]
@@ -58,7 +58,7 @@
             "thickness": "10 мм",
             "density": "1.0 кг/м²",
             "warranty": "5 лет",
-            "price": "4752"
+            "price": "5063"
           }
         },
         {
@@ -67,130 +67,11 @@
             "thickness": "10 мм",
             "density": "1.45 кг/м²",
             "warranty": "7 лет",
-            "price": "6945"
-          }
-        }
-      ]
-    },
-    {
-      "name": "Бирюза",
-      "image": "img/catalog/engineer/biruyza.jpg",
-      "buttons": [
-        {
-          "label": "Стандарт",
-          "description": {
-            "thickness": "10 мм",
-            "density": "1.0 кг/м²",
-            "warranty": "5 лет",
-            "price": "4752"
-          }
-        }
-      ]
-    },
-    {
-      "name": "Синий",
-      "image": "img/catalog/engineer/blue.jpg",
-      "buttons": [
-        {
-          "label": "Стандарт",
-          "description": {
-            "thickness": "10 мм",
-            "density": "1.0 кг/м²",
-            "warranty": "5 лет",
-            "price": "4752"
-          }
-        }
-      ]
-    },
-    {
-      "name": "Гранат",
-      "image": "img/catalog/engineer/granat.jpg",
-      "buttons": [
-        {
-          "label": "Стандарт",
-          "description": {
-            "thickness": "10 мм",
-            "density": "1.0 кг/м²",
-            "warranty": "5 лет",
-            "price": "4752"
-          }
-        }
-      ]
-    },
-    {
-      "name": "Зеленый",
-      "image": "img/catalog/engineer/green.jpg",
-      "buttons": [
-        {
-          "label": "Стандарт",
-          "description": {
-            "thickness": "10 мм",
-            "density": "1.0 кг/м²",
-            "warranty": "5 лет",
-            "price": "4752"
-          }
-        }
-      ]
-    },
-    {
-      "name": "Молочный",
-      "image": "img/catalog/engineer/milk.jpg",
-      "buttons": [
-        {
-          "label": "Стандарт",
-          "description": {
-            "thickness": "10 мм",
-            "density": "1.0 кг/м²",
-            "warranty": "5 лет",
-            "price": "4752"
-          }
-        }
-      ]
-    },
-    {
-      "name": "Оранжевый",
-      "image": "img/catalog/engineer/orange.jpg",
-      "buttons": [
-        {
-          "label": "Стандарт",
-          "description": {
-            "thickness": "10 мм",
-            "density": "1.0 кг/м²",
-            "warranty": "5 лет",
-            "price": "4752"
-          }
-        }
-      ]
-    },
-    {
-      "name": "Красный",
-      "image": "img/catalog/engineer/red.jpg",
-      "buttons": [
-        {
-          "label": "Стандарт",
-          "description": {
-            "thickness": "10 мм",
-            "density": "1.0 кг/м²",
-            "warranty": "5 лет",
-            "price": "4752"
-          }
-        }
-      ]
-    },
-    {
-      "name": "Желтый",
-      "image": "img/catalog/engineer/yellow.jpg",
-      "buttons": [
-        {
-          "label": "Стандарт",
-          "description": {
-            "thickness": "10 мм",
-            "density": "1.0 кг/м²",
-            "warranty": "5 лет",
-            "price": "4752"
+            "price": "6908"
           }
         }
       ]
     }
   ]
 }
+
