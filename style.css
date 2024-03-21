@@ -245,20 +245,16 @@ nav::after {
     transform: translateX(0);
 }
 
-
+main {
+    min-height: 70vh;
+}
 
 .container-main {
     margin: 10px auto;
     width: 80%;
     max-width: 1540px;
-    height: 60vh;
+    min-height: 60vh;
     position: relative;
-
-
-    max-height: 700px;
-
-
-
 }
 
 .main_img {
@@ -646,9 +642,46 @@ footer h4 {
     justify-content: center;
 
 }
+.page_about {
+    display: flex;
+    justify-content: space-around;
 
+}
+.page_about .logo {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.company_contacts {
+    display: flex;
+    align-items: center;
+}
+.company_contacts li {
+    margin: 1em;
+}
+
+.company_contacts span, .company_contacts a {
+    font-weight: bold;
+}
+.product_image {
+    position: relative;
+}
+.image_container {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+}
+.image_container img {
+    display: flex;
+    min-width: auto;
+    width: 30%;
+    min-height: auto;
+}
 
 @media (max-width : 799px) {
+    
     .nav_items {
         display: none;
     }
@@ -657,8 +690,15 @@ footer h4 {
         display: block;
     }
     .container-main {
-        height: 50vh;
         width: 95%;
+
+    }
+    .company_contacts li {
+        margin: 1em 0;
+    }
+    .page_about {
+        flex-direction: column;
+        
     }
     .discription {
         position: relative;

@@ -91,7 +91,7 @@
             "density": "0.750 кг/м²",
             "warranty": "7 лет",
             "lifeTime": "14 лет",
-            "price": "3448"
+            "price": "3636"
           }
         }
       ]
@@ -99,52 +99,52 @@
   ],
   "greenhouse": [
     {
-      "name": "Теплица 20*20",
-      "image": "img/catalog/grennhouse/teplica20x20.png",
-      "availability": false,
+      "name": "Теплица Капля",
+      "image": "img/catalog/grennhouse/kaplya.jpg",
+      "availability": true,
       "buttons": [
         {
           "label": "4 м",
           "description": {
             "secondArc": "",
-            "base": "20x20мм",
-            "arc": "20x20мм",
-            "distance": "0.67см",
+            "base": "20x40мм",
+            "arc": "20x40мм",
+            "distance": "0.65м",
             "width": "3м",
-            "price": "0"
+            "price": "16790"
           }
         },
         {
           "label": "6 м",
           "description": {
             "secondArc": "",
-            "base": "20x20мм",
-            "arc": "20x20мм",
-            "distance": "0.67см",
+            "base": "20x40мм",
+            "arc": "20x40мм",
+            "distance": "0.65м",
             "width": "3м",
-            "price": "0"
+            "price": "22310"
           }
         },
         {
           "label": "8 м",
           "description": {
             "secondArc": "",
-            "arc": "20x20мм",
-            "base": "20x20мм",
-            "distance": "0.67см",
+            "arc": "20x40мм",
+            "base": "20x40мм",
+            "distance": "0.65м",
             "width": "3м",
-            "price": "0"
+            "price": "27830"
           }
         },
         {
           "label": "10 м",
           "description": {
             "secondArc": "",
-            "arc": "20x20мм",
-            "base": "20x20мм",
-            "distance": "0.67см",
+            "arc": "20x40мм",
+            "base": "20x40мм",
+            "distance": "0.65м",
             "width": "3м",
-            "price": "0"
+            "price": "33350"
           }
         }
       ]
@@ -160,7 +160,7 @@
             "secondArc": "",
             "base": "20x40мм",
             "arc": "20x40мм на ребро",
-            "distance": "0.67см",
+            "distance": "0.67м",
             "width": "3м",
             "price": "12000"
           }
@@ -171,7 +171,7 @@
             "secondArc": "",
             "base": "20x40мм",
             "arc": "20x40мм на ребро",
-            "distance": "0.67см",
+            "distance": "0.67м",
             "width": "3м",
             "price": "15400"
           }
@@ -182,7 +182,7 @@
             "secondArc": "",
             "base": "20x40мм",
             "arc": "20x40мм на ребро",
-            "distance": "0.67см",
+            "distance": "0.67м",
             "width": "3м",
             "price": "18800"
           }
@@ -193,7 +193,7 @@
             "secondArc": "",
             "base": "20x40мм",
             "arc": "20x40мм на ребро",
-            "distance": "0.67см",
+            "distance": "0.67м",
             "width": "3м",
             "price": "22200"
           }
@@ -236,7 +236,7 @@
             "secondArc": "со 2ой дугой",
             "base": "20x40мм",
             "arc": "20x20мм и 20x40мм",
-            "distance": "0.67см",
+            "distance": "0.67м",
             "width": "3м",
             "price": "30550"
           }
@@ -247,7 +247,7 @@
             "secondArc": "со 2ой дугой",
             "base": "20x40мм",
             "arc": "20x20мм и 20x40мм",
-            "distance": "0.67см",
+            "distance": "0.67м",
             "width": "3м",
             "price": "41600"
           }
@@ -258,7 +258,7 @@
             "secondArc": "со 2ой дугой",
             "base": "20x40мм",
             "arc": "20x20мм и 20x40мм",
-            "distance": "0.67см",
+            "distance": "0.67м",
             "width": "3м",
             "price": "52650"
           }
@@ -269,7 +269,7 @@
             "secondArc": "со 2ой дугой",
             "base": "20x40мм",
             "arc": "20x20мм и 20x40мм",
-            "distance": "0.67см",
+            "distance": "0.67м",
             "width": "3м",
             "price": "63700"
           }
