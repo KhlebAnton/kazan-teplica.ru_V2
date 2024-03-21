@@ -22,7 +22,7 @@ function showProducts(subcategoryId, categoryId, clickedElement) {
 
     clickedElement.style.backgroundColor = "#13A538";
     clickedElement.style.color = "#ffffff";
-    
+
     loadProducts(subcategoryId);
 }
 function loadProducts(subcategoryId) {
@@ -66,7 +66,7 @@ function loadProducts(subcategoryId) {
                         var buttonGroupHTML = '';
                         product.buttons.forEach((button, buttonIndex) => {
                             buttonGroupHTML += `
-                                <button class="btn-desc length" 
+                                <button class="btn-desc length ${buttonIndex === 0 ? 'active' : ''}" 
                                 data-length="${button.label}" onclick="showDescriptionGreenhouse(this, 'product${index}')">
                                 ${button.label}
                                 </button>
@@ -87,12 +87,12 @@ function loadProducts(subcategoryId) {
 
                                 polick.buttons.forEach((button, buttonIndex) => {
                                     btnGroupLength.innerHTML += `
-                                <button class="btn-desc polik" 
+                                <button class="btn-desc polik ${indexPol === 0 ? 'active' : ''}" 
                                 data-polik="${button.label}" onclick="showDescriptionGreenhouse(this, 'product${index}')">
                                 ${button.label}
                                 </button>
                             `;
-                                })
+                                });
                             });
                             btnGroupLength.innerHTML += `</div>`
                         });
@@ -108,16 +108,19 @@ function loadProducts(subcategoryId) {
 
                             for (let btnsPolik of policks) {
                                 let productHTML = document.getElementById(`product${index}`);
-                                productHTML.innerHTML += `${getDescriptionHTMLGreenhouse(btnsGren.buttons, btnsPolik.buttons, index, btnsGren.name)}`;
-                                indpolic++;
-                                if (indpolic === policks.length) {
-                                    index++;
-                                    indpolic = 0;
+                                if (productHTML != null) {
+                                    productHTML.innerHTML += `${getDescriptionHTMLGreenhouse(btnsGren.buttons, btnsPolik.buttons, index, btnsGren.name)}`;
+                                    showDescriptionGreenhouse(null, `product${index}`);
+                                    indpolic++;
+                                    if (indpolic === policks.length) {
+                                        index++;
+                                        indpolic = 0;
+                                    }
                                 }
+
                             }
 
                         }
-
 
                     }
 
@@ -165,7 +168,7 @@ function loadProducts(subcategoryId) {
                         var buttonGroupHTML = '';
                         product.buttons.forEach((button, buttonIndex) => {
                             buttonGroupHTML += `
-                                <button class="btn-desc length" 
+                                <button class="btn-desc length ${buttonIndex === 0 ? 'active' : ''}" 
                                 data-length="${button.label}" onclick="showDescriptionGreenhouse(this, 'product${index}')">
                                 ${button.label}
                                 </button>
@@ -202,7 +205,7 @@ function loadProducts(subcategoryId) {
                                 polick.buttons.forEach((button, buttonIndex) => {
                                     if ((button.label === "4 мм" || button.label === "6 мм") && indexPol < 1)
                                         btnGroupLength.innerHTML += `
-                                <button class="btn-desc polik" 
+                                <button class="btn-desc polik ${buttonIndex === 0 ? 'active' : ''}" 
                                 data-polik="${button.label}" onclick="showDescriptionGreenhouse(this, 'product${index}')">
                                 ${button.label}
                                 </button>
@@ -210,6 +213,7 @@ function loadProducts(subcategoryId) {
                                 })
                             });
                             btnGroupLength.innerHTML += `</div>`
+                            
                         });
                     }
                     for (index of listInd) {
@@ -224,6 +228,7 @@ function loadProducts(subcategoryId) {
                             for (let btnsPolik of policks) {
                                 let productHTML = document.getElementById(`product${index}`);
                                 productHTML.innerHTML += `${getDescriptionHTMLCottatgeFurniture(btnsGren.buttons, btnsPolik.buttons, index, btnsGren.name)}`;
+                                showDescriptionGreenhouse(null, `product${index}`);
                                 indpolic++;
                                 if (indpolic === policks.length) {
                                     index++;
@@ -235,7 +240,7 @@ function loadProducts(subcategoryId) {
 
 
                     }
-
+                    
 
 
                 }
@@ -538,16 +543,19 @@ function showDescription(index, productId) {
 
 function showDescriptionGreenhouse(button, productId) {
     // Определяем группу кнопок, к которой принадлежит текущая кнопка
-    var buttonGroup = button.parentElement;
-    var buttonsInGroup = buttonGroup.querySelectorAll(".btn-desc");
+    if (button) {
+        var buttonGroup = button.parentElement;
+        var buttonsInGroup = buttonGroup.querySelectorAll(".btn-desc");
 
-    // Снимаем активное состояние со всех кнопок в этой группе
-    buttonsInGroup.forEach(function (btn) {
-        btn.classList.remove("active");
-    });
+        // Снимаем активное состояние со всех кнопок в этой группе
+        buttonsInGroup.forEach(function (btn) {
+            btn.classList.remove("active");
+        });
 
-    // Помечаем текущую кнопку как активную
-    button.classList.add("active");
+        // Помечаем текущую кнопку как активную
+        button.classList.add("active");
+    }
+
 
     // Получаем активные кнопки в обеих группах
     var selectedLengthButtons = document.querySelectorAll("#" + productId + " .btn-group-length .btn-desc.active");
