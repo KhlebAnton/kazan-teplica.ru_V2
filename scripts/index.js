@@ -23,6 +23,18 @@ let timerBgrImage = setInterval(() => {
     
  }
 
+ const whyItems = document.querySelectorAll('.why_item');
+
+ whyItems.forEach(item => {
+    let itemTitle = item.querySelector('.why_title');
+    let itemDesc = item.querySelector('.why_desc');
+
+    itemTitle.addEventListener('click' , () => {
+        itemTitle.classList.toggle('select');
+        itemDesc.classList.toggle('select');
+    })
+ })
+
 
 
 
