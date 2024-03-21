@@ -33,7 +33,8 @@ body {
 }
 
 header {
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0px;
     z-index: 2;
     background-color: #ffffffc4;
@@ -246,6 +247,7 @@ nav::after {
 }
 
 main {
+    margin-top: 80px;
     min-height: 70vh;
 }
 
