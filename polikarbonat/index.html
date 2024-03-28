@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ЮГРА-Пласт Поликарбонат
         </title>
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/style.css?ver=2">
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" sizes="120x120" href="/android-chrome-192x192.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -19,8 +19,12 @@
         <meta name="keywords"
             content="купить поликарбонат, поликарбонат от производителя, поликарбонат прозрачный, поликарбонат сотовый, сотовый поликарбонат, монолитный поликарбонат, каркасы теплиц, поликарбонат цветной, поликарбонат коричневый, поликарбонат красный">
         <meta name="country" content="RU">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     </head>
 <body>
+    <div id="preloader">
+        <lottie-player src="/lottie/Animation.json" background="transparent"  speed="1"  style="width: 200px; height: 200px;" loop autoplay></lottie-player>
+    </div>
     <header>
         <nav>
             <picture class="nav_logo">
@@ -158,6 +162,8 @@
 
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.3/lottie.min.js"></script>
+    <script src="/scripts/preloader.js"></script>
     <script src="/scripts/catalog.js"></script>
     <script>
         loadProducts('engineering')

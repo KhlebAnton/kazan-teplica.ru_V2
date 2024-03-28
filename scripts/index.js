@@ -3,7 +3,6 @@ const containerMain = document.querySelector('.container-main')
 let activeMainImg;
 
 
-
 let timerBgrImage = setInterval(() => {
     nextBackgroundMain();
 }, 7000);

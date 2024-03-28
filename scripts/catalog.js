@@ -97,7 +97,7 @@ function loadProducts(subcategoryId) {
                             btnGroupLength.innerHTML += `</div>`
                         });
                     }
-                    for (index of listInd) {
+                    for (let index = 0; index < listInd.length; index++) {
 
 
 
@@ -216,7 +216,7 @@ function loadProducts(subcategoryId) {
                             
                         });
                     }
-                    for (index of listInd) {
+                    for (let index = 0; index < listInd.length; index++) {
 
 
 

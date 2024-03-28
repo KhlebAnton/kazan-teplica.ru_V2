@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ЮГРА-Пласт Информация
         </title>
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/style.css?ver=2">
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" sizes="120x120" href="/android-chrome-192x192.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -17,8 +17,12 @@
         <meta name="description"
             content="Компания Югра-ПЛАСТ Информация" />
         <meta name="country" content="RU">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     </head>
 <body>
+    <div id="preloader">
+        <lottie-player src="/lottie/Animation.json" background="transparent"  speed="1"  style="width: 200px; height: 200px;" loop autoplay></lottie-player>
+    </div>
     <header>
         <nav>
             <picture class="nav_logo">
@@ -140,7 +144,7 @@
         </div>
 
     </footer>
-
+    <script src="/scripts/preloader.js"></script>
     <script class="stepform_Z8xLZU8 rnd_1460872188">
         (function(s, t, e, p, f, o, r, m) {
             s[t] = s[t] || {};

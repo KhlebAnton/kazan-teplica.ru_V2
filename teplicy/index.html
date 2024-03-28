@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ЮГРА-Пласт Теплицы
     </title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css?ver=2">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" sizes="120x120" href="/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -20,9 +20,13 @@
     <meta name="keywords"
         content="купить теплицу, теплицы из поликарбоната, теплица цена, теплицы от производителя, лучшие теплицы, теплицы отзывы, завод теплиц, теплицы недорого, найти теплицы, размеры теплиц, каркас теплицы, теплица дачная, сайт теплицы, длина теплицы, грядки в теплице, правильная теплица, какая теплица лучше, теплицы в области, теплица капелька, прямостенная теплица">
     <meta name="country" content="RU">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
 <body>
+    <div id="preloader">
+        <lottie-player src="/lottie/Animation.json" background="transparent"  speed="1"  style="width: 200px; height: 200px;" loop autoplay></lottie-player>
+    </div>
     <header>
         <nav>
             <picture class="nav_logo">
@@ -52,7 +56,8 @@
                         <ul>
                             <li><a href="tel:+79872165566" class="menu-item" ontouchstart>+7(987)-216-55-66</a></li>
                             <li><a href="tel:+79196897195" class="menu-item" ontouchstart>+7(919)-689-71-95</a></li>
-                            <li href="#popup:stepform_Z8xLZU8_1460872188" class="menu-item" ontouchstart>Заказ звонка</li>
+                            <li href="#popup:stepform_Z8xLZU8_1460872188" class="menu-item" ontouchstart>Заказ звонка
+                            </li>
                         </ul>
                     </li>
 
@@ -68,13 +73,14 @@
     </header>
     <main>
         <div class="catalog-container">
-        
+
             <div class="catalog">
-                
+
                 <div class="sidebar">
                     <h1>Теплицы</h1>
                     <div id="category2" class="subcategory">
-                        <div class="subcategory-item" onclick="showProducts('greenhouse', 'category2', this)" style="background-color:#13A538; color: #ffffff;">Теплицы
+                        <div class="subcategory-item" onclick="showProducts('greenhouse', 'category2', this)"
+                            style="background-color:#13A538; color: #ffffff;">Теплицы
                         </div>
                         <div id="subcategory3" class="subcategory">
                         </div>
@@ -86,13 +92,13 @@
                 </div>
                 <div class="content">
                     <div id="productContainer" class="product-container">
-    
+
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    
+
     <footer>
 
         <div class="footer-container">
@@ -152,26 +158,27 @@
         </div>
 
     </footer>
-<script src="/scripts/catalog.js"></script>
-<script>
-    loadProducts('greenhouse')
-</script>
-<script class="stepform_Z8xLZU8 rnd_1460872188">
-    (function(s, t, e, p, f, o, r, m) {
-        s[t] = s[t] || {};
-        s[t][1460872188] = {
-            id: "Z8xLZU8",
-            rnd: 1460872188,
-            popup: true,
-            showType: "button",
-            overlayColor: "#000000",
-            overlayOpacity: 30
-        };
-        e.async = true;
-        e.src = p + f;
-        document[m](o)[r](e)
-    }(window,"stepFORM_params",document.createElement("script"),document.location.protocol==="https:"?"https:":"http:","//u052171.stepform.io/api.js?id=Z8xLZU8","head","appendChild","querySelector"));
-</script>
+    <script src="/scripts/preloader.js"></script>
+    <script src="/scripts/catalog.js"></script>
+    <script>
+        loadProducts('greenhouse')
+    </script>
+    <script class="stepform_Z8xLZU8 rnd_1460872188">
+            (function (s, t, e, p, f, o, r, m) {
+                s[t] = s[t] || {};
+                s[t][1460872188] = {
+                    id: "Z8xLZU8",
+                    rnd: 1460872188,
+                    popup: true,
+                    showType: "button",
+                    overlayColor: "#000000",
+                    overlayOpacity: 30
+                };
+                e.async = true;
+                e.src = p + f;
+                document[m](o)[r](e)
+            }(window, "stepFORM_params", document.createElement("script"), document.location.protocol === "https:" ? "https:" : "http:", "//u052171.stepform.io/api.js?id=Z8xLZU8", "head", "appendChild", "querySelector"));
+    </script>
 </body>
 
 </html>
