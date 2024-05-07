@@ -11,7 +11,7 @@
             "density": "0.375 кг/м²",
             "warranty": "3 года",
             "lifeTime": "8 лет",
-            "price": "1761"
+            "price": "1812"
           }
         }
       ]
@@ -27,7 +27,7 @@
             "density": "0.420 кг/м²",
             "warranty": "3 года",
             "lifeTime": "8 лет",
-            "price": "1966"
+            "price": "2023"
           }
         }
       ]
@@ -43,7 +43,7 @@
             "density": "0.470 кг/м²",
             "warranty": "5 лет",
             "lifeTime": "10 лет",
-            "price": "2146"
+            "price": "2207"
           }
         }
       ]
@@ -59,7 +59,7 @@
             "density": "0.600 кг/м²",
             "warranty": "7 года",
             "lifeTime": "14 лет",
-            "price": "2924"
+            "price": "3004"
           }
         }
       ]
@@ -72,10 +72,10 @@
           "label": "4 мм ГОСТ",
           "description": {
             "thickness": "4 мм",
-            "density": "0.850 кг/м²",
+            "density": "0.800 кг/м²",
             "warranty": "15 лет",
             "lifeTime": "20 лет",
-            "price": "4140"
+            "price": "3900"
           }
         }
       ]
@@ -91,7 +91,23 @@
             "density": "0.750 кг/м²",
             "warranty": "7 лет",
             "lifeTime": "14 лет",
-            "price": "3636"
+            "price": "3733"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Прозрачный",
+      "image": "img/catalog/engineer/white204w.jpg",
+      "buttons": [
+        {
+          "label": "6 мм Премиум",
+          "description": {
+            "thickness": "6 мм",
+            "density": "1.00 кг/м²",
+            "warranty": "10 лет",
+            "lifeTime": "15 лет",
+            "price": "4995"
           }
         }
       ]
