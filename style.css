@@ -515,7 +515,7 @@ footer h4 {
     color: #000000;
     border: 1px solid transparent;
     margin: 0.5em 0;
-    transition: 0.3s;
+    transition: background-size 0.3s;
     position: relative;
 
     background-image: linear-gradient(to right, #5e5e5e, #5e5e5e);
@@ -576,7 +576,7 @@ footer h4 {
 
 .product-description .price {
     font-size: 20px;
-    padding: 0.5em;
+    padding: 0.5em 0;
 }
 
 .selector-descs button.active {

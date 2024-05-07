@@ -421,13 +421,15 @@ function getDescriptionHTMLGreenhouse(btnsGren, btnsPolik, buttonIndex, label) {
                    <br> Высота <span>${grenBtn.description.hiegth}</span>
                   <br> Ширина теплицы <span>${grenBtn.description.width}</span>
                   <br> Цена каркаса <span>${grenBtn.description.price} ₽</span></p>
-
+                  <br>
+                  <p><span>Поликарбонат: <br></span>
                   <p>Толщина <span>${polickBtn.description.thickness}</span> <br> Плотность <span>${polickBtn.description.density}</span>
                   <br> Гарантийный срок <span>${polickBtn.description.warranty}</span>
-                  <br> Срок службы <span>${polickBtn.description.lifeTime}</span></p>
+                  <br> Срок службы <span>${polickBtn.description.lifeTime}</span>
+                  <br> Цена каркаса <span>${polickBtn.description.price} ₽</span></p>
 
 
-                  <span class='price'>${+grenBtn.description.price + +polickBtn.description.price} ₽</span>
+                  <span class='price'>Итого: ${+grenBtn.description.price + +polickBtn.description.price} ₽</span>
                    </div>
                    
                 `;
@@ -465,13 +467,16 @@ function getDescriptionHTMLGreenhouse(btnsGren, btnsPolik, buttonIndex, label) {
                    <br> Расстояние между дуг <span>${grenBtn.description.distance}</span>
                   <br> Ширина теплицы <span>${grenBtn.description.width}</span>
                   <br> Цена каркаса <span>${grenBtn.description.price} ₽</span></p>
-
+                  <br>
+                  <p><span>Поликарбонат: <br></span>
                   <p>Толщина <span>${polickBtn.description.thickness}</span> <br> Плотность <span>${polickBtn.description.density}</span>
                   <br> Гарантийный срок <span>${polickBtn.description.warranty}</span>
-                  <br> Срок службы <span>${polickBtn.description.lifeTime}</span></p>
+                  <br> Срок службы <span>${polickBtn.description.lifeTime}</span>
+                  <br> Цена поликарбоната <span>${totalPrice - grenBtn.description.price} ₽</span></p>
+                  </p>
 
 
-                  <span class='price'>${totalPrice} ₽</span>
+                  <span class='price'>Итого: ${totalPrice} ₽</span>
                    </div>
                    
                 `;
@@ -505,13 +510,17 @@ function getDescriptionHTMLCottatgeFurniture(btnsGren, btnsPolik, buttonIndex, l
                    <br> Дуга <span>${grenBtn.description.arc}</span>
                   
                   <br> Цена каркаса <span>${grenBtn.description.price} ₽</span></p>
-
+                  <br>
+                  <p><span>Поликарбонат: <br></span>
                   <p>Толщина <span>${polickBtn.description.thickness}</span> <br> Плотность <span>${polickBtn.description.density}</span>
                   <br> Гарантийный срок <span>${polickBtn.description.warranty}</span>
-                  <br> Срок службы <span>${polickBtn.description.lifeTime}</span></p>
+                  <br> Срок службы <span>${polickBtn.description.lifeTime}</span>
+                  <br> Цена Поликарбоната <span>${polickBtn.description.price} ₽</span>
+                  </p>
+                  
 
 
-                  <span class='price'>${+grenBtn.description.price + +polickBtn.description.price} ₽</span>
+                  <span class='price'>Итого: ${+grenBtn.description.price + +polickBtn.description.price} ₽</span>
                    </div>
                    
                 `;
